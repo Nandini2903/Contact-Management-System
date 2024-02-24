@@ -1,0 +1,6 @@
+Database Creation: The program starts by creating a SQLite database file where the contact information will be stored. The database typically consists of a single table to store contacts, with fields such as ID, Name, Cell (phone number), and Email.
+Table Creation: Within the database, a table named contacts is created with columns corresponding to the contact details, such as Name, Cell (phone number), and Email. Each contact is assigned a unique ID, usually generated automatically using SQLite's AUTOINCREMENT feature.
+Inserting Contacts: Users can add contacts to the database by providing details such as name, phone number, and email. This information is then inserted into the contacts table
+Fetching Contacts: Users can retrieve contacts from the database, either individually or all at once. This involves querying the contacts table to retrieve the desired information.
+Displaying Contacts: Once the contacts are fetched from the database, they can be displayed to the user. This typically involves presenting the contacts in a readable format, such as a list or table, on the screen.
+Updating and Deleting Contacts: Users may also have the ability to update or delete existing contacts in the database. This involves modifying or removing rows from the contacts table based on user input.
